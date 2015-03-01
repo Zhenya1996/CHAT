@@ -1,33 +1,151 @@
-<!doctype html>
+п»ї<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Chat</title>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <title>"Chat"</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<div class="user-header">
-     <div class="user-header_left_block">
-       <div class="user-header_lb-str><marquee behavior="alternate" direction="center"><i>~  Chat ~</i></marquee></div>
- <div class="main-area"><p align="center">
-  <div class="friends"><p align="left">Friends</p></div>
-  <div class="messages"><p align="left"><textarea cols="143" rows="10" readonly wrap="hard" title="TextArea">Friend
-Friend
-Friend
-Friend
-Friend
-Friend
-Friend
-Friend
-Friend
-Friend
-Friend
-Friend
-Friend</textarea></p></div>
-</p></div>
-<td class="enterUsernameButton">
+<body bgcolor="#dcdcdc">
+
+<table border="2" width="80%" height="80%" bgcolor="white" align="center" cellspacing="0">
+    <tr>
+        <td class="title" colspan="5"> Chat</td>
+    </tr>
+
+    <tr>
+        <td class="textWindowOne">user online</td>
+
+        <td class="messageHistory" colspan="4" rowspan="4">
+            <table class="history" align="left"><textarea cols="143" rows="15" readonly wrap="hard" title="TextArea">Messages
+               Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+Messages
+             
+                </textarea></p></div>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="userList">
+            <ul class="userList">
+                <li>User1</li>
+                <li>User2</li>
+                <li>User3</li>
+                <li>User4</li>
+                <li>User5</li>
+                <li>User6</li>
+                <li>User7</li>
+                <li>User8</li>
+                <li>User9</li>
+                <li>User11</li>
+                <li>User12</li>
+                <li>User13</li>
+                <li>User14</li>
+                <li>User15</li>
+                <li>User16</li>
+                <li>User17</li>
+                <li>User18</li>
+                <li>User19</li>
+                <li>User21</li>
+                <li>User22</li>
+                <li>User23</li>
+                <li>User24</li>
+                <li>User25</li>
+                <li>User26</li>
+                <li>User27</li>
+                <li>User28</li>
+                <li>User29</li>
+
+            </ul>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="enterUsernameButton">
             <button class="usernameButton" form="username">
-                Ввести имя пользователя
+                Edit user
             </button>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="enterUsernameButton">
+            <button class="usernameButton" form="username">
+                change user
+            </button>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="info">
+            <form id="username">
+            Name user:
+                <input type="text" maxlength="15" size="16" disabled="disabled">
+            </form>
+        </td>
+
+        <td class="inputMessage" colspan="2" rowspan="2">
+            <form id="inputMessage">
+                <textarea class="inputMessage" name="message" rows="9" maxlength="1024" placeholder="message"></textarea>
+            </form>
+        </td>
+
+        <td class="sendButton" rowspan="2">
+            <button class="sendButton" form="inputMessage">
+                send message
+            </button>
+        </td>
+
+        <td class="editDeleteButton">
+            <button class="editDeleteButton" form="messageHistory">
+                editing
+            </button>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="info">stasus: ON</td>
+
+        <td class="editDeleteButton" colspan="2">
+            <button class="editDeleteButton" form="messageHistory">
+                Delete
+            </button>
+        </td>
+    </tr>
+</table>
 
 </body>
 </html>
