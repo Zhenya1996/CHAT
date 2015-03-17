@@ -57,3 +57,8 @@ html,body{
     background-color: #aaa;
     color: #eee;
 }
+.selected{
+background-color:red;
+}
+.message{
+}
